@@ -40,11 +40,11 @@ $$
 
 Numbers service that provides 2D A and B datasets of a given size.
 
-| API | Description |
-| --- | --- |
-| `GET api/numbers/init/{size}` | Initializes the dataset size to {size} x {size} elements. |
-| `GET api/numbers/{dataset}/{type}/{idx}` | Retrieves row / col of data |
-| `POST api/numbers/validate` | Validates calculation based on MD5 hash of all values in the new dataset |
+| Method | API | Description |
+| --- | --- | --- |
+| GET | `api/numbers/init/{size}` | Initializes the dataset size to {size} x {size} elements. |
+| GET | `api/numbers/{dataset}/{type}/{idx}` | Retrieves row / col of data |
+| POST | `api/numbers/validate` | Validates calculation based on MD5 hash of all values in the new dataset |
 
 ## Submission Instructions
 
